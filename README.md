@@ -1,3 +1,24 @@
-# Term-Project
-Term Project_process-simulation
-The term project must be a behavioral or process simulation. How can we distinguish a behavioral or process simulation from a Monte Carlo or statistical simulation? Look for a clock. If the program that runs the simulation has a clock that keeps track of time (knowing when each even occurs and being able to stop at any time to see the current state of nature), then that program is probably a behavioral or process simulation. It mimics actual behavior or processes in the real world.
+# Optimizing Space Mission Sustainability: A Simulation Study on Oxygen Recycling and Astronaut Health
+
+#### Abstract 
+This study presents a SimPy-based simulation of closed-cycle life support systems for sustainable space missions, with a focus on oxygen recycling. Addressing the challenge of limited resources in space travel, this model simulates the oxygen cycle to improve the efficiency and reliability of life support systems. The simulation evaluates technological advancements in oxygen recycling and assesses physiological adaptations of astronauts, such as bone mineral density (BMD) and oxygen consumption (VO2), during extended missions. Primary Results demonstrate the efficacy of enhanced recycling techniques, reducing logistical burdens and supporting long-duration missions. These results offer significant implications for the sustainability of future space exploration.
+Keywords: Oxygen Recycling, Life Support Systems, Space Missions, SimPy Simulation, Physiological Adaptation, BMD, VO2, Closed-Loop System, Astronaut Health, Sustainability.
+
+## Methodological Framework: Simulating Space Life Support Dynamics
+  The methodological framework integrates advanced simulation tools and comprehensive data analysis to model the complexities of life support systems in space environments. The key components include:
+•	Simulation Tools: Python and SimPy are utilized for data manipulation and to model critical life support processes such as air regeneration, water recycling, and food production in closed-loop systems. These tools enable the creation of detailed simulations that replicate the dynamic interactions within a space station's life support system.
+•	System Interaction: The framework models the interactions between astronauts and life support systems, focusing on essential resources such as oxygen, carbon dioxide, water, and waste. For example, the oxygen recycling system simulates the consumption and recycling of oxygen, ensuring a balanced supply, as demonstrated in the iterative simulations where oxygen consumption and recycling rates are dynamically adjusted to maintain equilibrium. This interaction is crucial for maintaining sustainability on long-duration space missions.
+•	Data-Driven Insights: The framework leverages empirical data to ensure realistic modeling of life support systems. This includes historical data from terrestrial analogs like Biosphere 2 and space missions, which are integrated into the simulations to enhance accuracy. The use of empirical data aids in the prediction of system performance and the identification of potential issues, allowing for the development of robust and resilient life support systems.
+By combining these components, the methodological framework provides a comprehensive approach to simulating and optimizing life support dynamics in space, ensuring the sustainability and well-being of astronauts during extended missions.
+
+## Research Design, Algorithms, and Modeling Method
+The research design follows an iterative approach, starting with the analysis of existing data, refined through both simulation and real-world data collection, to enhance the model's accuracy. Initially, the study leverages historical data from terrestrial analogs and space missions, followed by simulations using the SimPy framework to model life support systems and human physiological responses under space conditions.
+To achieve this, algorithms were specifically developed to model key life support processes, such as oxygen recycling, CO2 removal, and water recovery. These algorithms simulate the dynamic interactions and system behaviors within a closed ecological system. For instance, the oxygen recycling algorithm models the consumption and recycling rates of oxygen, as detailed in the simulation outputs where oxygen consumption and recycling were periodically balanced to maintain system stability.
+The modeling method employs event-driven programming to capture real-time interactions within the life support system. This includes simulating the astronauts' oxygen consumption and CO2 production, and the corresponding recycling processes to ensure a sustainable environment. Event-driven programming is particularly effective for simulating emergency scenarios and optimizing system efficiency, as it allows the model to adapt to various unforeseen events, ensuring robustness and resilience during long-duration space missions.
+Furthermore, the physiological modeling of astronauts includes tracking bone mineral density (BMD) and oxygen consumption (VO2) over time, capturing the degradation during the mission and the recovery post-mission. This is critical for understanding the long-term health impacts on astronauts and devising countermeasures to mitigate these effects.
+Overall, this methodology ensures that the simulations are not only accurate, but also adaptable to a wide range of scenarios, providing valuable insights for the design and operation of sustainable life support systems in space.
+
+
+
+
+
